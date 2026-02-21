@@ -1,4 +1,12 @@
 const portfolioItems = [
+  // Logo mockup image - placed at the very top
+  { src: '/assets/WhatsApp Image 2026-02-21 at 10.31.00 AM.jpeg', alt: 'KC Logo Mockup on Mug and T-Shirt' },
+  
+  // New portfolio designs
+  { src: '/assets/generated/portfolio-digital-1.dim_800x600.png', alt: 'Digital Design Portfolio' },
+  { src: '/assets/generated/portfolio-print-1.dim_800x600.png', alt: 'Print Design Portfolio' },
+  
+  // Previous portfolio images - design mockups
   { src: '/assets/1.jpg', alt: 'Kaur\'s Creation Logo Design' },
   { src: '/assets/2.jpg', alt: 'Banner and Flex Design' },
   { src: '/assets/3.jpg', alt: 'Brochure Design' },
@@ -36,7 +44,7 @@ const PortfolioSection = () => {
           {portfolioItems.map((item, index) => (
             <div
               key={index}
-              className="break-inside-avoid group relative overflow-hidden rounded-sm"
+              className="break-inside-avoid group relative overflow-hidden rounded-sm border-4 border-white"
             >
               <img
                 src={item.src}

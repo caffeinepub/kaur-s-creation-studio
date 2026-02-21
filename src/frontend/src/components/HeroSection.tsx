@@ -16,10 +16,14 @@ const HeroSection = () => {
             </button>
           </div>
           <div className="flex justify-center md:justify-end">
-            <img
-              src="/assets/generated/designer-avatar.dim_600x600.png"
-              alt="3D Designer Avatar"
-              className="w-full max-w-md object-contain"
+            <video
+              src="/assets/WhatsApp Video 2026-02-21 at 10.21.18 AM.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="w-full max-w-md object-contain rounded-lg shadow-2xl"
+              aria-label="Kaur's Creation Logo Reveal"
             />
           </div>
         </div>

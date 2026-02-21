@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 5,
+  "projectStateVersion": 13,
   "summary": "Premium graphic design studio website for 'Kaur's Creation' with navy blue and gold luxury aesthetic, featuring sticky header, hero section with 3D avatar, services grid, masonry portfolio gallery, client testimonials, and elegant footer",
   "architectural_notes": [
     "Navy blue and gold luxury color palette throughout",
@@ -8,7 +8,9 @@
     "Ultra-modern, high-end studio aesthetic with professional white space",
     "4K resolution with sharp edges and vector-quality elements",
     "Contact details: Kaurscreation009@gmail.com, +91-9988302842",
-    "Social profiles: LinkedIn (sharandeep-kaur-347285376), Facebook (61582726687717), Instagram (Kaurs.creation_official)"
+    "Social profiles: LinkedIn (sharandeep-kaur-347285376), Facebook (61582726687717), Instagram (Kaurs.creation_official)",
+    "Portfolio gallery order: latest uploaded designs first, followed by existing mockups, with duplicate detection",
+    "About section with personal designer bio emphasizing creativity, color theory, typography, and brand uniqueness"
   ],
   "known_issues": [],
   "isFixRequest": false,
@@ -108,6 +110,78 @@
         "REQ-12"
       ],
       "version": 1
+    },
+    {
+      "id": "feature-reorder-the-portfolio-gallery-in-portfoliosection-tsx-to-display-the-newly-uploaded-portfolio-images-at-the-top-of-the-gallery-followed-by-the-previously-uploaded-images-1-jpg-through-18-jpg-coffee-copy-jpg-amul-jpg-mockup-jpg-as-design-mockups-below-them",
+      "title": "Reorder the portfolio gallery in PortfolioSection.tsx to display the newly uploaded portfolio images at the top of the gallery, followed by the previously uploaded images (1.jpg through 18.jpg, coffee copy.jpg, amul.jpg, mockup.jpg) as design mockups below them",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-any-duplicate-images-from-the-portfolio-gallery-to-ensure-each-design-appears-only-once",
+      "title": "Remove any duplicate images from the portfolio gallery to ensure each design appears only once",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-white-border-to-all-portfolio-images-in-the-portfoliosection-tsx-component-to-ensure-consistent-and-uniform-appearance-across-all-design-mockups-in-the-masonry-gallery",
+      "title": "Add a white border to all portfolio images in the PortfolioSection.tsx component to ensure consistent and uniform appearance across all design mockups in the masonry gallery",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-text-above-thank-you-for-choosing-us-in-the-footer-component-stating-we-provide-many-more-services-as-well-and-you-can-contact-us-for-them-with-appropriate-styling-that-matches-the-navy-and-gold-theme",
+      "title": "Add text above 'Thank you for choosing us' in the Footer component stating 'We provide many more services as well, and you can contact us for them.' with appropriate styling that matches the navy and gold theme",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-3d-designer-avatar-image-in-herosection-component-with-the-uploaded-logo-reveal-video-positioning-it-beautifully-to-integrate-with-the-navy-background-and-overall-hero-section-design",
+      "title": "Replace the 3D designer avatar image in HeroSection component with the uploaded logo reveal video, positioning it beautifully to integrate with the navy background and overall hero section design",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-whatsapp-business-icon-and-link-to-the-social-media-icons-section-in-the-footer-component-alongside-the-existing-linkedin-facebook-and-instagram-icons",
+      "title": "Add WhatsApp Business icon and link to the social media icons section in the Footer component alongside the existing LinkedIn, Facebook, and Instagram icons",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-about-section-component-positioned-between-the-herosection-and-servicessection-with-the-heading-about-and-the-following-text-content-hi-i-m-a-graphic-designer-who-loves-turning-ideas-into-eye-catching-designs-i-enjoy-playing-with-colors-fonts-and-layouts-to-create-visuals-that-feel-fresh-and-unique-whether-it-s-a-logo-social-media-post-or-full-brand-design-i-m-here-to-make-your-brand-look-awesome-and-stand-out-let-s-create-something-cool-together-style-it-consistently-with-the-navy-blue-and-gold-theme-used-throughout-the-website",
+      "title": "Create an About section component positioned between the HeroSection and ServicesSection with the heading 'About' and the following text content: 'Hi, I'm a graphic designer who loves turning ideas into eye-catching designs. I enjoy playing with colors, fonts, and layouts to create visuals that feel fresh and unique. Whether it's a logo, social media post, or full brand design, I'm here to make your brand look awesome and stand out. Let's create something cool together! 🎨✨' Style it consistently with the navy blue and gold theme used throughout the website.",
+      "reqIds": [
+        "REQ-19"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-white-border-to-the-kc-logo-image-in-the-header-component-that-appears-next-to-the-home-navigation-button",
+      "title": "Add a white border to the KC logo image in the Header component that appears next to the 'Home' navigation button.",
+      "reqIds": [
+        "REQ-20"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-uploaded-logo-mockup-image-whatsapp-image-2026-02-21-at-10-31-00-am-jpeg-showing-kc-logo-on-mug-and-t-shirt-to-the-portfolio-gallery-in-portfoliosection-tsx-positioned-at-the-top-of-the-gallery-with-the-same-white-border-treatment-as-other-portfolio-images",
+      "title": "Add the uploaded logo mockup image (WhatsApp Image 2026-02-21 at 10.31.00 AM.jpeg showing KC logo on mug and t-shirt) to the portfolio gallery in PortfolioSection.tsx, positioned at the top of the gallery with the same white border treatment as other portfolio images.",
+      "reqIds": [
+        "REQ-21"
+      ],
+      "version": 1
     }
   ],
   "new_feature_requests": [
@@ -150,6 +224,54 @@
     {
       "id": "AR-7",
       "summary": "Add contact information (email: Kaurscreation009@gmail.com, phone: +91-9988302842) and social media links (LinkedIn, Facebook, Instagram: Kaurs.creation_official)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Reorder portfolio images: new uploads first, then existing mockups, ensuring no duplicates",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Add white border to portfolio designs for consistent and uniform appearance",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Add text above footer 'Thank you for choosing us' stating 'We provide many more services as well, and you can contact us for them'",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Replace 3D avatar image in hero section with uploaded logo reveal video, positioned beautifully to match background",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-12",
+      "summary": "Add WhatsApp Business icon to social media links in footer",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-13",
+      "summary": "Add About section with custom designer bio text about graphic design philosophy and personal approach",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-14",
+      "summary": "Add white border to the KC logo in the header next to 'Home'",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-15",
+      "summary": "Add logo mockup image to portfolio section",
       "reqIds": [],
       "status": "pending"
     }

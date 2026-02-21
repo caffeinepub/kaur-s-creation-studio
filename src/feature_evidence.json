@@ -2,10 +2,11 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-add-contact-information-to-the-footer-component-email-kaurscreation009-gmail-com-and-phone-number-91-9988302842",
-      "featureTitle": "Add contact information to the footer component: email (Kaurscreation009@gmail.com) and phone number (+91-9988302842)",
+      "featureId": "feature-create-an-about-section-component-positioned-between-the-herosection-and-servicessection-with-the-heading-about-and-the-following-text-content-hi-i-m-a-graphic-designer-who-loves-turning-ideas-into-eye-catching-designs-i-enjoy-playing-with-colors-fonts-and-layouts-to-create-visuals-that-feel-fresh-and-unique-whether-it-s-a-logo-social-media-post-or-full-brand-design-i-m-here-to-make-your-brand-look-awesome-and-stand-out-let-s-create-something-cool-together-style-it-consistently-with-the-navy-blue-and-gold-theme-used-throughout-the-website",
+      "featureTitle": "Create an About section component positioned between the HeroSection and ServicesSection with the heading 'About' and the following text content: 'Hi, I'm a graphic designer who loves turning ideas into eye-catching designs. I enjoy playing with colors, fonts, and layouts to create visuals that feel fresh and unique. Whether it's a logo, social media post, or full brand design, I'm here to make your brand look awesome and stand out. Let's create something cool together! 🎨✨' Style it consistently with the navy blue and gold theme used throughout the website.",
       "files": [
-        "frontend/src/components/Footer.tsx"
+        "frontend/src/App.tsx",
+        "frontend/src/components/AboutSection.tsx"
       ],
       "components": [
         "core-infrastructure@1.0.2",
@@ -15,49 +16,13 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-9"
+        "REQ-19"
       ],
       "confidence": "high"
     },
     {
-      "featureId": "feature-add-social-media-links-to-the-footer-component-linkedin-www-linkedin-com-in-sharandeep-kaur-347285376-facebook-https-www-facebook-com-profile-php-id-61582726687717-and-instagram-kaurs-creation-official",
-      "featureTitle": "Add social media links to the footer component: LinkedIn (www.linkedin.com/in/sharandeep-kaur-347285376), Facebook (https://www.facebook.com/profile.php?id=61582726687717), and Instagram (Kaurs.creation_official)",
-      "files": [
-        "frontend/src/components/Footer.tsx"
-      ],
-      "components": [
-        "core-infrastructure@1.0.2",
-        "shadcn-ui@1.0.0",
-        "build-template-react@1.0.0",
-        "initial-app@1.0.0",
-        "github-export-icp-cli@1.0.0"
-      ],
-      "testIds": [
-        "REQ-10"
-      ],
-      "confidence": "high"
-    },
-    {
-      "featureId": "feature-replace-the-placeholder-portfolio-gallery-images-with-the-21-uploaded-portfolio-images-1-jpg-through-18-jpg-coffee-copy-jpg-amul-jpg-mockup-jpg-showcasing-the-user-s-actual-design-work-including-logos-business-cards-brochures-packaging-designs-social-media-posts-and-client-work",
-      "featureTitle": "Replace the placeholder portfolio gallery images with the 21 uploaded portfolio images (1.jpg through 18.jpg, coffee copy.jpg, amul.jpg, mockup.jpg) showcasing the user's actual design work including logos, business cards, brochures, packaging designs, social media posts, and client work",
-      "files": [
-        "frontend/src/components/PortfolioSection.tsx"
-      ],
-      "components": [
-        "core-infrastructure@1.0.2",
-        "shadcn-ui@1.0.0",
-        "build-template-react@1.0.0",
-        "initial-app@1.0.0",
-        "github-export-icp-cli@1.0.0"
-      ],
-      "testIds": [
-        "REQ-11"
-      ],
-      "confidence": "high"
-    },
-    {
-      "featureId": "feature-replace-the-current-kc-logo-placeholder-throughout-the-website-with-the-actual-kaur-s-creation-logo-from-the-uploaded-image-1-jpg",
-      "featureTitle": "Replace the current KC logo placeholder throughout the website with the actual Kaur's Creation logo from the uploaded image (1.jpg)",
+      "featureId": "feature-add-a-white-border-to-the-kc-logo-image-in-the-header-component-that-appears-next-to-the-home-navigation-button",
+      "featureTitle": "Add a white border to the KC logo image in the Header component that appears next to the 'Home' navigation button.",
       "files": [
         "frontend/src/components/Header.tsx"
       ],
@@ -69,7 +34,25 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-12"
+        "REQ-20"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-the-uploaded-logo-mockup-image-whatsapp-image-2026-02-21-at-10-31-00-am-jpeg-showing-kc-logo-on-mug-and-t-shirt-to-the-portfolio-gallery-in-portfoliosection-tsx-positioned-at-the-top-of-the-gallery-with-the-same-white-border-treatment-as-other-portfolio-images",
+      "featureTitle": "Add the uploaded logo mockup image (WhatsApp Image 2026-02-21 at 10.31.00 AM.jpeg showing KC logo on mug and t-shirt) to the portfolio gallery in PortfolioSection.tsx, positioned at the top of the gallery with the same white border treatment as other portfolio images.",
+      "files": [
+        "frontend/src/components/PortfolioSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-21"
       ],
       "confidence": "high"
     }

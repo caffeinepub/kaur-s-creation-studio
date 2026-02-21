@@ -30,7 +30,7 @@ const Header = () => {
             <img
               src="/assets/1.jpg"
               alt="Kaur's Creation Logo"
-              className="h-14 w-auto object-contain"
+              className="h-14 w-auto object-contain border-4 border-white rounded-sm"
             />
           </div>
           <nav className="hidden md:flex items-center space-x-8">

@@ -1,11 +1,12 @@
 {
-  "frontend/src/App.tsx": "Main application component that renders the complete page structure with Header, HeroSection, ServicesSection, PortfolioSection, TestimonialSection, and Footer components in a single-page layout.",
-  "frontend/src/components/Header.tsx": "Sticky navigation header component with the actual Kaur's Creation logo from uploaded assets and smooth scroll functionality with gold hover effects on navy blue background.",
-  "frontend/src/components/HeroSection.tsx": "Hero section component displaying the \"Elevate Your Brand\" headline with gold CTA button and 3D designer avatar positioned on the right side.",
+  "frontend/src/App.tsx": "Main application component that renders the complete page structure with Header, HeroSection, AboutSection (new), ServicesSection, PortfolioSection, TestimonialSection, and Footer components in a single-page layout.",
+  "frontend/src/components/Header.tsx": "Sticky navigation header component with the KC logo featuring a white border (border-4 border-white) and smooth scroll functionality with gold hover effects on navy blue background.",
+  "frontend/src/components/HeroSection.tsx": "Hero section component displaying the \"Elevate Your Brand\" headline with gold CTA button and logo reveal video positioned on the right side with autoplay, muted, and loop settings.",
   "frontend/src/components/ServicesSection.tsx": "Services grid component displaying all 11 design services with gold icons in a responsive grid layout without categorization.",
-  "frontend/src/components/PortfolioSection.tsx": "Masonry-style portfolio gallery component displaying 21 uploaded portfolio images including logo designs, packaging, social media posts, and branding work in a responsive layout.",
+  "frontend/src/components/PortfolioSection.tsx": "Masonry-style portfolio gallery component displaying 24 unique portfolio images including the new logo mockup image (mug and t-shirt) at the top, with consistent white borders (4px) around each image in a responsive layout with navy and gold hover effects.",
   "frontend/src/components/TestimonialSection.tsx": "Testimonial section component titled \"What Our Clients Say\" featuring five client reviews in a responsive card grid with navy and gold styling.",
-  "frontend/src/components/Footer.tsx": "Footer component displaying contact information (email and phone), social media links (LinkedIn, Facebook, Instagram) with gold-styled icons, and attribution with navy and gold theme.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying additional services text, contact information (email and phone), social media links (LinkedIn, Facebook, Instagram, WhatsApp Business) with gold-styled icons, and attribution with navy and gold theme.",
   "frontend/src/index.css": "Global stylesheet defining the premium Navy Blue and Gold OKLCH color system, Inter and Playfair Display typography, sharp rendering properties, and custom utility classes for the luxury aesthetic.",
-  "frontend/tailwind.config.js": "Tailwind configuration extending the theme with custom navy blue and gold colors, Inter and Playfair Display font families, enhanced shadows, and minimal border radius for sharp edges."
+  "frontend/tailwind.config.js": "Tailwind configuration extending the theme with custom navy blue and gold colors, Inter and Playfair Display font families, enhanced shadows, and minimal border radius for sharp edges.",
+  "frontend/src/components/AboutSection.tsx": "About section component displaying the designer's bio text with gold heading and white text on navy background, positioned between Hero and Services sections."
 }

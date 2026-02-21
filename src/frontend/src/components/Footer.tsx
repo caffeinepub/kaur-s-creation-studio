@@ -1,4 +1,4 @@
-import { Mail, Phone } from 'lucide-react';
+import { Mail, Phone, MessageCircle } from 'lucide-react';
 import { SiFacebook, SiLinkedin, SiInstagram } from 'react-icons/si';
 
 const Footer = () => {
@@ -10,6 +10,11 @@ const Footer = () => {
     <footer id="contact" className="bg-dark-navy py-16">
       <div className="container mx-auto px-6">
         <div className="text-center space-y-8">
+          {/* Additional Services Text */}
+          <p className="text-white/70 text-base md:text-lg max-w-2xl mx-auto">
+            We provide many more services as well, and you can contact us for them.
+          </p>
+          
           <h3 className="text-3xl md:text-4xl font-serif text-gold italic">
             Thank you for choosing us
           </h3>
@@ -60,6 +65,15 @@ const Footer = () => {
               aria-label="Instagram"
             >
               <SiInstagram className="w-6 h-6" />
+            </a>
+            <a
+              href="https://wa.me/919988302842"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gold hover:text-gold-light transition-all duration-300 hover:scale-110"
+              aria-label="WhatsApp Business"
+            >
+              <MessageCircle className="w-6 h-6" />
             </a>
           </div>
 

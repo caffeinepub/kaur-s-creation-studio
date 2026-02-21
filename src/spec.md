@@ -1,12 +1,11 @@
 # Specification
 
 ## Summary
-**Goal:** Add contact information and social media links to the footer, and replace portfolio gallery with 21 uploaded portfolio images showcasing actual design work.
+**Goal:** Add an About section with bio text, apply white border to header logo, and include logo mockup in portfolio gallery.
 
 **Planned changes:**
-- Add email (Kaurscreation009@gmail.com) and phone number (+91-9988302842) to the footer
-- Add social media links to the footer: LinkedIn (www.linkedin.com/in/sharandeep-kaur-347285376), Facebook (https://www.facebook.com/profile.php?id=61582726687717), and Instagram (Kaurs.creation_official)
-- Replace placeholder portfolio images with 21 uploaded portfolio images (1.jpg through 18.jpg, coffee copy.jpg, amul.jpg, mockup.jpg) in the masonry grid layout
-- Update the header logo with the actual Kaur's Creation logo from 1.jpg
+- Create About section component between Hero and Services sections with designer bio text
+- Add white border styling to KC logo in header navigation
+- Add uploaded logo mockup image (mug and t-shirt) to portfolio gallery with white border treatment
 
-**User-visible outcome:** Visitors can see real contact information and social media links in the footer, and browse the actual portfolio showcasing logos, business cards, brochures, packaging designs, social media posts, and client work from Kaur's Creation.
+**User-visible outcome:** Visitors see a personal bio section introducing the designer, the header logo has a distinctive white border, and the portfolio gallery displays the logo mockup showcasing brand applications.
