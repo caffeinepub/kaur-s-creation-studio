@@ -1,0 +1,20 @@
+{
+  "backend/main.mo": "Empty Motoko actor serving as a placeholder backend with no implemented functionality.",
+  "feature_evidence.json": "Feature evidence report documenting four implemented features: contact information in footer, social media links in footer, portfolio gallery with 21 images, and logo replacement in header.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of all frontend component files describing their structure, styling, and functionality in the Kaur's Creation portfolio website.",
+  "frontend/index.css": "Tailwind CSS configuration with custom OKLCH color variables for light and dark themes, defining navy blue and gold color system with sidebar and chart color tokens.",
+  "frontend/index.html": "HTML entry point with UTF-8 charset, viewport meta tag, page title 'Kaur's Creation', and script reference to main.tsx module.",
+  "frontend/src/App.tsx": "Root React component rendering the complete single-page layout with Header, HeroSection, ServicesSection, PortfolioSection, TestimonialSection, and Footer on navy background.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying contact information (email and phone), social media links (LinkedIn, Facebook, Instagram) with icons, and attribution with caffeine.ai link.",
+  "frontend/src/components/Header.tsx": "Sticky navigation header with Kaur's Creation logo from /assets/1.jpg and smooth-scroll navigation buttons for Home, About, Services, Portfolio, Contact, and Review sections.",
+  "frontend/src/components/HeroSection.tsx": "Hero section with 'Elevate Your Brand' headline, descriptive text, gold CTA button, and 3D designer avatar image positioned in a two-column grid layout.",
+  "frontend/src/components/PortfolioSection.tsx": "Masonry-style portfolio gallery displaying 21 portfolio images from /assets/ directory in a responsive multi-column layout with hover effects.",
+  "frontend/src/components/ServicesSection.tsx": "Services grid component displaying 11 design services (logo, business card, flex, brochure, etc.) with generated icons in a responsive 2-4 column layout.",
+  "frontend/src/components/TestimonialSection.tsx": "Testimonial section titled 'What Our Clients Say' displaying five client reviews with 5-star ratings in a responsive card grid with navy and gold styling.",
+  "frontend/src/hooks/useActor.ts": "Custom React hook that creates and manages an authenticated or anonymous actor instance for backend communication, invalidating dependent queries when the actor changes based on Internet Identity authentication state.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login/logout flow, identity state, and delegation validation with configurable AuthClient options.",
+  "frontend/src/index.css": "Global CSS with Tailwind configuration defining a luxury navy blue and gold color palette using OKLCH color space, custom utility classes, and typography settings for Inter and Playfair Display fonts.",
+  "frontend/src/main.tsx": "Application entry point that sets up React Query client and Internet Identity provider, then renders the root App component.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration extending the theme with custom navy/gold colors in OKLCH format, Inter/Playfair Display fonts, custom shadows, and animation keyframes for accordion and other UI components.",
+  "project_state.json": "Project metadata describing a premium graphic design studio website for 'Kaur's Creation' with navy/gold luxury aesthetic, listing implemented features including sticky header, hero section, services grid, portfolio gallery, testimonials, and footer."
+}

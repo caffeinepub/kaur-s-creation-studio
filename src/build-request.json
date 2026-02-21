@@ -1,0 +1,100 @@
+{
+  "kind": "build_request",
+  "title": "Add contact information and social media links to footer, and replace portfolio with uploaded portfolio images",
+  "projectName": "Kaur's Creation",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-9",
+      "text": "Add contact information to the footer component: email (Kaurscreation009@gmail.com) and phone number (+91-9988302842)",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-last"
+        ],
+        "quotes": [
+          "My mail id is Kaurscreation009@gmail.com contact number is +91-9988302842"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Footer displays email address Kaurscreation009@gmail.com",
+        "Footer displays phone number +91-9988302842",
+        "Contact information is styled consistently with the navy and gold theme",
+        "Contact information is visible and readable on all screen sizes"
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "text": "Add social media links to the footer component: LinkedIn (www.linkedin.com/in/sharandeep-kaur-347285376), Facebook (https://www.facebook.com/profile.php?id=61582726687717), and Instagram (Kaurs.creation_official)",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-last"
+        ],
+        "quotes": [
+          "linkedin profile link is www.linkedin.com/in/sharandeep-kaur-347285376 and facebook profile link is https://www.facebook.com/profile.php?id=61582726687717 and instagram is Kaurs.creation_official"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Footer includes clickable social media icons/links for LinkedIn, Facebook, and Instagram",
+        "LinkedIn link points to www.linkedin.com/in/sharandeep-kaur-347285376",
+        "Facebook link points to https://www.facebook.com/profile.php?id=61582726687717",
+        "Instagram link points to Instagram profile Kaurs.creation_official",
+        "Social media icons follow the gold accent styling",
+        "Links open in new tabs"
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "text": "Replace the placeholder portfolio gallery images with the 21 uploaded portfolio images (1.jpg through 18.jpg, coffee copy.jpg, amul.jpg, mockup.jpg) showcasing the user's actual design work including logos, business cards, brochures, packaging designs, social media posts, and client work",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-last"
+        ],
+        "quotes": [
+          "The user has uploaded 21 image(s): 5.jpg, 1.jpg, 6.jpg, 17.jpg, 16.jpg, 18.jpg, 2.jpg, 8.jpg, 15.jpg, 13.jpg, 7.jpg, 3.jpg, 11.jpg, 10.jpg, 4.jpg, 9.jpg, 14.jpg, coffee copy.jpg, 12.jpg, amul.jpg, mockup.jpg"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Portfolio section displays all 21 uploaded images in the masonry grid layout",
+        "Images are properly sized and maintain aspect ratios",
+        "Images load efficiently without performance issues",
+        "Hover effects remain functional on the new portfolio images",
+        "Grid layout adapts responsively across different screen sizes"
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "text": "Replace the current KC logo placeholder throughout the website with the actual Kaur's Creation logo from the uploaded image (1.jpg)",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-last"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Header displays the actual Kaur's Creation logo from 1.jpg",
+        "Logo is properly sized and maintains clarity",
+        "Logo retains the navy and gold color scheme",
+        "Logo is visible on all pages and screen sizes"
+      ]
+    }
+  ],
+  "constraints": [
+    "Preserve the existing navy blue and gold color palette",
+    "Maintain the luxury aesthetic and professional design",
+    "Keep the masonry grid layout for the portfolio section",
+    "Do not modify the immutable frontend paths (useInternetIdentity, useActor, main.tsx, components/ui)"
+  ],
+  "nonGoals": [
+    "Backend functionality for uploading images through an admin panel",
+    "Contact form implementation",
+    "Email integration or backend contact handling",
+    "Social media API integrations"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
